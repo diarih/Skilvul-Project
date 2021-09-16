@@ -31,6 +31,33 @@
 </body>
 </html>
 ```
+```css
+#daftar-siswa {
+    background-color: #5f6674;
+}
 
-#Submitted Images:
+#daftar-siswa > p {
+    color: #F3F4F6;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.siswa {
+    padding: 10px 15px 10px 15px;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+#daftar-siswa > p:hover {
+    background-color: #E5E7EB;
+    color:  #111827;
+}
+```
+# Submitted Images:
 ![Screenshot (310)](https://user-images.githubusercontent.com/86011284/133558793-65557522-1b5c-494e-ae7f-7ff94cc156b2.png)
