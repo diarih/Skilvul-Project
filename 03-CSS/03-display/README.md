@@ -20,5 +20,25 @@
 </body>
 </html>
 ```
+
+```css
+nav {
+    background-color: lightskyblue;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 15px 10px 15px;
+}
+
+nav a:hover {
+    background-color: gainsboro;
+}
+```
 # Submitted Image:
 ![Screenshot (311)](https://user-images.githubusercontent.com/86011284/133560668-a70a63d9-75f9-4ff2-8429-6083f5019d52.png)
