@@ -1,5 +1,5 @@
 ## 01-Basic
-
+Soal 1
 
 1. Create a folder called `git-basic` **mkdir git-basic**
 2. `cd` into the `git-basic` folder cd **git-basic**
