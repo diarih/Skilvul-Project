@@ -17,7 +17,7 @@ ELSE IF "type_temperature" is kelvin
     SET "result" value with calculation result
     DISPLAY "result"
 
-ELSE IF "type_temperature" is kelvin
+ELSE IF "type_temperature" is celcius
     DO CALCULATE 
     SET "result" value with calculation result
     DISPLAY "result"
