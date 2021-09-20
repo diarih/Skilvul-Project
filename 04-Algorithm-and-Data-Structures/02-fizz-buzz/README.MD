@@ -9,21 +9,16 @@ WHILE "i" sum with 1 while looping Stop value until value of "n"
 
     DO
         IF value of i MODULO with 3 result 0 AND value of i MODULO with 5 result 0
-            DO DISPLAY "Fizz Buzz"
+            DISPLAY "Fizz Buzz"
 
         ELSE IF value i MODULO with 3 result 0
-            DO DISPLAY "Fizz" 
+            DISPLAY "Fizz" 
 
         ELSE IF value i MODULO with 5 result 0
-            DO DISPLAY "Buzz"
+            DISPLAY "Buzz"
         
         ElSE
             DO DISPLAY "i"
 
 STOP
-    
-
-
-
-
 ```
