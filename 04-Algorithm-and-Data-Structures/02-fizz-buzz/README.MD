@@ -16,9 +16,9 @@ WHILE "i" sum with 1 while looping Stop value until value of "n"
 
         ELSE IF value i MODULO with 5 result 0
             DISPLAY "Buzz"
-            
-        ELSE 
-            DISPLAY "i"
+        
+        ElSE
+            DO DISPLAY "i"
 
 STOP
 ```
