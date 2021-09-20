@@ -18,4 +18,9 @@ Pesan yang ingin disampaikan: Semangat untuk kamu yang disana sedang berjuang
 11. Lakukan pull request dari GitHub Repository yang telah kamu fork untuk digabungkan ke dalam branch `master` pada GitHub Repository aslinya. **answer image under the file!**
 
 ## Answer Images
-
+1. Fork Repository
+> ![Screenshot (337)](https://user-images.githubusercontent.com/86011284/134026673-4e9829e3-9d27-45c6-8f4e-edd2c44d8cd1.png)
+2. nano edit unix cli
+>![Screenshot (338)](https://user-images.githubusercontent.com/86011284/134026984-7093018b-72b5-4e46-ad8b-580c3d72d448.png)
+3. Open Pull Request to master repo
+> ![Screenshot (341)](https://user-images.githubusercontent.com/86011284/134027158-caf18760-10bd-4091-ae63-935ed7020ad1.png)
