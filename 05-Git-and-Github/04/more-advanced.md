@@ -1,0 +1,6 @@
+## More Advanced Github & Git
+
+1. What is the difference between `git reset` and `git revert`. When would you use one over the other?  **git reset will cancel all your changing and deleted your commit, whereas git revert doesn't delete your commit**
+2. What is the difference between `git merge` and `git rebase`. When would you use one over the other? **it depends on your workflow. git merge is easist way when you haven't a big project, you make linear branch with the master then do fast forward merge or master have a new commit and make two way merge/merge commit merging for different branch. The problem occur when you have a bigger project, its quite hard to tracking you two way merge. Neverthless, you can use git rebase. git rebase is same as merge. git rebase will change your commit branch to latest commit master then do fast forward merge**
+3. What is the difference between `git stash pop` and `git stash apply`. When would you use one over the other? **git stash apply used when you want to move other branch, but not commited yet. So, you save it on stash. git stash pop remove your stash from the list and moving into the directory**
+4. What kinds of things can you do in `interactive` mode when rebasing? **There are plenty you can do with interactive rebasing. You can reword your commit, reorder your commit, remove your commit, and etc.**
