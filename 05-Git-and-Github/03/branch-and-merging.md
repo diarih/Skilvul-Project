@@ -1,7 +1,7 @@
 ## Branch and Merge
 
 1. What does `git clean` do? **Git clean are use for remove your untracked file from working tree on curent directory** 
-2. What do the `-d and -f` flags for `git clean` do? **-d use when directory need to be cleaned too** **-f se to force clean the file**
+2. What do the `-d and -f` flags for `git clean` do? **-d use when directory need to be cleaned too** **-f use to force clean the file**
 3. What `git` command creates a branch? **git branch**
 4. What is the difference between a fast-forward and recursive merge? **fast forward can easily merge to other branch on linear branch or allowed to merge from diverge branch** , **recursive merge happen when u cannot merging from current branch to other branch**
 5. What `git` command changes to another branch? **git checkout (branch)**
