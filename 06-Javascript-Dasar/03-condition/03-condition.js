@@ -12,18 +12,23 @@ const userAge = 18;
 const drivingLicense = true;
 /// EDIT HERE
 
+// kondisi jika umur kurang dari 18 tahun
 if (userAge < 18) {
 
     console.log("Anda Belum Cukup Umur")
 
 }
 
+//kondisi jika umur lebih dari 18 tahun
 else {
+
+    // kondisi jika sudah punya SIM
     if (drivingLicense == true) {
 
         console.log("Selamat Berkendara")
     }
 
+    // kondisi jika belum punya SIM
     else {
 
         console.log("Diharapkan untuk Membuat SIM Terlebih Dahulu")
@@ -43,18 +48,22 @@ const unit = "F"; /// inputan
 switch (unit) {
     /// EDIT HERE
 
+    // perhitungan celcius ke Kelvin
     case "K":
         console.log(temperature + 273)
         break;
 
+    // perhitungan celcius ke Fahrenheit
     case "F":
         console.log((9/5*temperature) + 32)
         break;
 
+    // perhitungan celcius ke Celcius
     case "C":
         console.log(C)
         break;
 
+    // Jika salah input
     default:
         console.log("Maaf Anda Salah Input")
 
