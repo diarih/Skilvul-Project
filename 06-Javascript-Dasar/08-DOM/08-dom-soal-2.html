@@ -185,6 +185,7 @@
 
         event.preventDefault(); //prevent refresh
         elCommentSection.removeAttribute("class") // Show comment section
+        elBtnComment.setAttribute("class", "d-none") // add class "d-none" to hide comment button
       
       })
 
@@ -217,6 +218,8 @@
         elInputUsername.value = "" // reset value input username
 
         elCommentSection.setAttribute("class", "d-none") // add class "d-none" to hide comment section
+
+        elBtnComment.setAttribute("class", "btn btn-primary w-100 text-capitalize")
 
       })
 
