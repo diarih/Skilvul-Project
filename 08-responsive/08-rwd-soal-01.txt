@@ -1,0 +1,19 @@
+Apa itu responsive web design?
+Sebutkan apa saja relative units yang dimiliki oleh CSS?
+Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+
+Jawab
+Responsive web design merupakan suatu metode untuk menyesuaikan tampilan web berdasarkan screen device yang berbeda-beda guna meningkatkan user experience yang lebih baik
+
+Relative units
+- %     - vw
+- em    - vh
+- ch    - vmin
+- ex    - vmax
+- rem   - lh
+
+Breakpoint merupakan batas web agar sesuai dengan screen device yang dimiliki. untuk membuat breakpoint dapat menggunakan media query lalu tentukan besaran max atau min width dari screen tertentu
+
+
