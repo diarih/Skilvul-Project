@@ -10,11 +10,32 @@ export default function App() {
   const [purchasedItem, setPurchasedItem] = useState(0);
   const [cart, setCart] = useState([]);
 
-  const addToCart = (id) => {};
+  const addToCart = (id) => {
+    const menu = menus.find((e) => e.id === id);
+    const IdCart = cart.find((e) => e.id === id);
+    console.log(IdCart);
+    if (!IdCart) {
+      setCart([
+        ...cart,
+        {
+          id,
+          name: menu.name,
+          price: menu.price,
+          amount: 1,
+        },
+      ]);
+    } else {
+      increaseCartAmount(id);
+    }
+  };
 
-  const decreaseCartAmount = (id) => {};
+  const decreaseCartAmount = (id) => {
+    
+  };
 
-  const increaseCartAmount = (id) => {};
+  const increaseCartAmount = (id) => {
+    
+  };
 
   return (
     <div className="bg-secondary">
@@ -58,7 +79,7 @@ export default function App() {
                 </div>
                 {new Intl.NumberFormat("en-US", {
                   style: "currency",
-                  currency: "USD"
+                  currency: "USD",
                 }).format(total)}
               </li>
             </ol>

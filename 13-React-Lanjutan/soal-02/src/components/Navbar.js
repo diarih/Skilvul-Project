@@ -41,11 +41,11 @@ const Navbar = ({ totalItem = 0 }) => {
 };
 
 Navbar.propTypes = {
-  purchasedItem: PropTypes.number,
+  totalItem: PropTypes.number,
 };
 
 Navbar.defaultProps = {
-  purchasedItem: 0,
+  totalItem: 0,
 };
 
 export default Navbar;
