@@ -28,7 +28,7 @@ CardProduct.propTypes = {
   name: PropTypes.string,
   price: PropTypes.number,
   image: PropTypes.string,
-  addToCart: propTypes.function,
+  addToCart: PropTypes.func,
 };
 
 CardProduct.defaultProps = {

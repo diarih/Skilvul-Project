@@ -25,11 +25,11 @@ CartListItem.propTypes = {
   name: PropTypes.string,
   price: PropTypes.number,
   amount: PropTypes.number,
-  increase: propTypes.func,
-  decrease: propTypes.func,
+  increase: PropTypes.func,
+  decrease: PropTypes.func,
 };
 
-CardProduct.defaultProps = {
+CartListItem.defaultProps = {
   name: "",
   price: "",
   amount: "",
