@@ -11,14 +11,13 @@ export default function App() {
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    setPurchasedItem(cart.reduce((acc, curr) => curr.amount + acc, 0));
-    setTotal(cart.reduce((acc, curr) => curr.amount * curr.price + acc, 0));
-  });
+    setPurchasedItem(cart.reduce((prev, current) => current.amount + prev, 0));
+    setTotal(cart.reduce((prev, current) => current.amount * current.price + prev, 0));
+  }, [cart]);
 
   const addToCart = (id) => {
     const menu = menus.find((e) => e.id === id);
     const IdCart = cart.find((e) => e.id === id);
-    console.log(IdCart);
     if (!IdCart) {
       setCart([
         ...cart,
