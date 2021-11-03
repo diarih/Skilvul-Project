@@ -10,6 +10,11 @@ export default function App() {
   const [purchasedItem, setPurchasedItem] = useState(0);
   const [cart, setCart] = useState([]);
 
+  useEffect(() => {
+    setPurchasedItem(cart.reduce((acc, curr) => curr.amount + acc, 0));
+    setTotal(cart.reduce((acc, curr) => curr.amount * curr.price + acc, 0));
+  });
+
   const addToCart = (id) => {
     const menu = menus.find((e) => e.id === id);
     const IdCart = cart.find((e) => e.id === id);
@@ -30,11 +35,20 @@ export default function App() {
   };
 
   const decreaseCartAmount = (id) => {
-    
+    const IdCart = cart.find((e) => e.id === id);
+    if (IdCart.amount > 1) {
+      setCart(
+        cart.map((x) => (x.id === id ? { ...x, amount: x.amount - 1 } : x))
+      );
+    } else {
+      setCart(cart.filter((x) => x.id !== id));
+    }
   };
 
   const increaseCartAmount = (id) => {
-    
+    setCart(
+      cart.map((x) => (x.id === id ? { ...x, amount: x.amount + 1 } : x))
+    );
   };
 
   return (
